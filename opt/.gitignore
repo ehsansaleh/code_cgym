@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!nlrpendulum.py
+!tests/cmp_py_cpp
+
+# ...even if they are in subdirectories
+!*/
