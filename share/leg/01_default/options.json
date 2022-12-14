@@ -1,0 +1,101 @@
+{
+    "theta_hip_init": [
+        -0.8726646259971648,
+        -0.8726646259971648
+    ],
+    "theta_knee_init": [
+        -1.7453292519943295,
+        -1.7453292519943295
+    ],
+    "omega_hip_init": [
+        0,
+        0
+    ],
+    "omega_knee_init": [
+        0,
+        0
+    ],
+    "pos_slider_init": [
+        0.4,
+        0.4
+    ],
+    "vel_slider_init": [
+        0.0,
+        0.0
+    ],
+    "jump_time_bounds": [
+        1.35,
+        1.35
+    ],
+    "ground_contact_type": "compliant",
+    "omega_hip_maxabs": 100,
+    "omega_knee_maxabs": 100,
+    "knee_minimum_z": 0.02,
+    "hip_minimum_z": 0.05,
+    "maxabs_tau": 10,
+    "maxabs_omega_for_tau": 33.6,
+    "jump_vel_reward": false,
+    "torque_smoothness_coeff": 2000,
+    "constraint_penalty": 100,
+    "turn_off_constraints": false,
+    "contact_obs": false,
+    "extra_obs_dim": 0,
+    "action_is_delta": false,
+    "stand_reward": "dense",
+    "posture_height": 0.1,
+    "max_reach": 0.28,
+    "time_before_reset": 2,
+    "add_act_sm_r": false,
+    "do_jump": false,
+    "jumping_obs": false,
+    "timed_jump": true,
+    "jump_push_time": 0.2,
+    "jump_fly_time": 0.2,
+    "max_leg_vel": 100,
+    "jump_vel_coeff": 10000,
+    "do_obs_noise": true,
+    "omega_noise_scale": 1,
+    "use_motor_model": true,
+    "output_torque_scale": 1,
+    "torque_delay": 0.001,
+    "observation_delay": 0.001,
+    "filter_state": false,
+    "filter_action": false,
+    "action_type": "torque",
+    "hip_kP": 1.25,
+    "hip_kD": 0.05,
+    "knee_kP": 1.25,
+    "knee_kD": 0.05,
+    "outer_loop_rate": 4000,
+    "inner_loop_rate": 4000,
+    "theta_hip_bounds": [
+        -3.9269908169872414,
+        1.5707963267948966
+    ],
+    "theta_knee_bounds": [
+        -2.705260340591211,
+        -0.6108652381980153
+    ],
+    "tau_decay_constant": null,
+    "maxabs_desired_joint_angle": null,
+    "filter_state_window": null,
+    "filter_state_numtaps": null,
+    "filter_state_cutoff": null,
+    "filter_action_window": null,
+    "filter_action_numtaps": null,
+    "filter_action_cutoff": null,
+    "a_osc_coeff": null,
+    "a_smooth_coeff": null,
+    "obs_history_taps": null,
+    "work_kP": null,
+    "work_kD": null,
+    "fd_velocities": null,
+    "slurm_job_file": null,
+    "xml_file": "leg.xml",
+    "reward_scaling": null,
+    "h1": 64,
+    "h2": 64,
+    "activation": "tanh",
+    "do_mlp_output_tanh": false,
+    "mlp_output_scaling": 1
+}
