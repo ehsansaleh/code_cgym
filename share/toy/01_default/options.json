@@ -1,0 +1,15 @@
+{
+    "state_init": [
+        -1.0,
+        1.0
+    ],
+    "obs_dim": 1,
+    "act_dim": 1,
+    "xml_file": null,
+    "reward_scaling": null,
+    "h1": 64,
+    "h2": 64,
+    "activation": "tanh",
+    "do_mlp_output_tanh": false,
+    "mlp_output_scaling": 1
+}
